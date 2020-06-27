@@ -49,6 +49,7 @@
 |modifiedDate|LocalDateTime|수정일자|
 
 #### ROOM_INFO - Init Data(init.csv)
+```
 bd839349-a6f5-4b90-9790-76f90c264c26,1000000001
 bd839349-a6f5-4b90-9790-76f90c264c26,1000000002
 bd839349-a6f5-4b90-9790-76f90c264c26,1000000003
@@ -77,7 +78,7 @@ c0cb235f-dc6b-4590-a739-23ec4ff3324f,1000000003
 c0cb235f-dc6b-4590-a739-23ec4ff3324f,1000000004
 c0cb235f-dc6b-4590-a739-23ec4ff3324f,1000000007
 c0cb235f-dc6b-4590-a739-23ec4ff3324f,1000000008
-
+```
 
 ### API 기능 명세
 |Method|URL|Description|
@@ -97,6 +98,7 @@ c0cb235f-dc6b-4590-a739-23ec4ff3324f,1000000008
 	“X-USER-ID”: 1000000001,
 	“X-ROOM-ID”: “fc344fb1-1bea-40f4-88fd-968d2bec971d”
 }
+```
 >- Request Body 
 ```
 {
@@ -121,6 +123,7 @@ c0cb235f-dc6b-4590-a739-23ec4ff3324f,1000000008
 	“X-USER-ID”: 1000000002,
 	“X-ROOM-ID”: “fc344fb1-1bea-40f4-88fd-968d2bec971d”
 }
+```
 >- Request Body 
 ```
 {
@@ -144,6 +147,7 @@ c0cb235f-dc6b-4590-a739-23ec4ff3324f,1000000008
 	“X-USER-ID”: 1000000002,
 	“X-ROOM-ID”: “fc344fb1-1bea-40f4-88fd-968d2bec971d”
 }
+```
 >- 응답은 뿌린시각, 뿌린금액, 받기완료된금액, 받기완료된정보(금액,사용자)리스트를 내려줍니다.
 >- Response Body
 ```
